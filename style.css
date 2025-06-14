@@ -1,0 +1,25 @@
+body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div {
+
+            border: 1px solid;
+            width: 60px;
+            height: 60px;
+
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+        }
+        
+        .white-box{
+            background-color: rgb(240, 223, 223);
+        }
+        .black-box{
+            background-color: black;
+        }
